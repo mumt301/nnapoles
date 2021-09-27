@@ -1,0 +1,37 @@
+body {
+    background-color: lightskyblue;
+}
+
+h1 {
+    text-shadow: 2px 1px;
+    color: midnightblue;
+}
+
+h2 {
+    border-style: double;
+    padding-left: 40px;
+    color: blue;
+}
+
+img {
+    height: 400px;
+    width: 600px;
+}
+
+#firstname:hover {
+    text-transform: capitalize;
+}
+
+#lastname:hover {
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: bold;
+}
+
+.incorrect:hover {
+    text-decoration: line-through;
+}
+
+.correct:hover {
+    color:green;
+}
